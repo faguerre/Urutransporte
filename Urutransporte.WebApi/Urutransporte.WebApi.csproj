@@ -3,11 +3,23 @@
   <ItemGroup>
     <ProjectReference Include="..\Urutransporte.BusinessLogic.Interface\Urutransporte.BusinessLogic.Interface.csproj" />
     <ProjectReference Include="..\Urutransporte.BusinessLogic\Urutransporte.BusinessLogic.csproj" />
+    <ProjectReference Include="..\Urutransporte.DataAccess.Interface\Urutransporte.DataAccess.Interface.csproj" />
+    <ProjectReference Include="..\Urutransporte.DataAccess\Urutransporte.DataAccess.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.8">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.8">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
   </ItemGroup>
 
   <PropertyGroup>

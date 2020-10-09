@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Urutransporte.BusinessLogic
+namespace Urutransporte.Utils
 {
     public class Class1
     {

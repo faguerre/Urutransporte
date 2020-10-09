@@ -4,6 +4,7 @@
     <ProjectReference Include="..\Urutransporte.Domain\Urutransporte.Domain.csproj" />
     <ProjectReference Include="..\Urutransporte.DataAccess.Interface\Urutransporte.DataAccess.Interface.csproj" />
     <ProjectReference Include="..\Urutransporte.BusinessLogic.Interface\Urutransporte.BusinessLogic.Interface.csproj" />
+    <ProjectReference Include="..\Urutransporte.Utils\Urutransporte.Utils.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
