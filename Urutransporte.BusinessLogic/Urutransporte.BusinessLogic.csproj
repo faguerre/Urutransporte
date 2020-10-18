@@ -1,6 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.9" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Urutransporte.Domain\Urutransporte.Domain.csproj" />
     <ProjectReference Include="..\Urutransporte.DataAccess.Interface\Urutransporte.DataAccess.Interface.csproj" />
     <ProjectReference Include="..\Urutransporte.BusinessLogic.Interface\Urutransporte.BusinessLogic.Interface.csproj" />

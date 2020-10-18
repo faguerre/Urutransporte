@@ -2,7 +2,7 @@
 
 namespace Urutransporte.Domain
 {
-    public class Class1
+    public class Ciudad
     {
     }
 }
